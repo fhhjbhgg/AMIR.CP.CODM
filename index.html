@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMIR.CP.CODM | فروشگاه کالاف</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#090909;
+  color:white;
+  font-family:Tahoma,Arial,sans-serif;
+}
+header{
+  text-align:center;
+  padding:28px 12px;
+  background:linear-gradient(135deg,#171717,#3a2a05);
+  border-bottom:2px solid #d5a928;
+}
+.logo{
+  color:#ffd45c;
+  font-size:27px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+header p{color:#ddd;font-size:13px}
+.hero{
+  text-align:center;
+  padding:25px 15px;
+}
+.hero h1{color:#ffd45c;font-size:25px}
+.hero p{color:#ccc;line-height:2}
+.badge{
+  display:inline-block;
+  background:#d5a928;
+  color:#111;
+  padding:10px 18px;
+  border-radius:8px;
+  font-weight:bold;
+}
+h2{
+  text-align:center;
+  color:#ffd45c;
+  margin-top:28px;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+  padding:12px;
+}
+.card{
+  background:#171717;
+  border:1px solid #514016;
+  border-radius:13px;
+  padding:14px 8px;
+  text-align:center;
+}
+.character{
+  font-size:55px;
+  margin:5px;
+  height:75px;
+}
+.card h3{font-size:15px}
+.price{
+  color:#ffd45c;
+  font-weight:bold;
+  font-size:14px;
+  line-height:1.8;
+}
+button{
+  background:#d5a928;
+  border:0;
+  color:#111;
+  padding:11px;
+  width:100%;
+  border-radius:7px;
+  font-weight:bold;
+  margin-top:8px;
+  cursor:pointer;
+}
+form{
+  background:#171717;
+  border:1px solid #514016;
+  border-radius:12px;
+  margin:15px;
+  padding:18px;
+}
+input,select,textarea{
+  width:100%;
+  padding:12px;
+  margin:7px 0 13px;
+  border:1px solid #555;
+  border-radius:7px;
+  background:#090909;
+  color:white;
+}
+label{font-size:14px;color:#ddd}
+.note{
+  color:#aaa;
+  font-size:12px;
+  line-height:1.8;
+}
+footer{
+  text-align:center;
+  color:#aaa;
+  padding:25px 10px;
+  border-top:1px solid #40330e;
+  font-size:12px;
+}
+a{color:#ffd45c}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">👑 AMIR.CP.CODM</div>
+  <p>فروشگاه ویژه کالاف دیوتی موبایل</p>
+</header>
+
+<section class="hero">
+  <h1>🔥 آماده‌ای لوداوتت رو ارتقا بدی؟</h1>
+  <p>سفارش سی‌پی با ثبت درخواست آسان</p>
+  <span class="badge">SPECIAL PRICE • FAST SERVICE</span>
+</section>
+
+<h2>🎮 محصولات فروشگاه</h2>
+
+<div class="products">
+
+  <div class="card">
+    <div class="character">🪖</div>
+    <h3>80 CP</h3>
+    <div class="price">۲۲۰٬۰۰۰ تومان</div>
+    <button onclick="choose(0)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">🎯</div>
+    <h3>160 CP</h3>
+    <div class="price">۴۴۰٬۰۰۰ تومان</div>
+    <button onclick="choose(1)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">🥷</div>
+    <h3>240 CP</h3>
+    <div class="price">۶۶۰٬۰۰۰ تومان</div>
+    <button onclick="choose(2)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">💀</div>
+    <h3>320 CP</h3>
+    <div class="price">۸۸۰٬۰۰۰ تومان</div>
+    <button onclick="choose(3)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">🦾</div>
+    <h3>420 CP</h3>
+    <div class="price">۱٬۱۶۰٬۲۵۰ تومان</div>
+    <button onclick="choose(4)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">🕶️</div>
+    <h3>880 CP</h3>
+    <div class="price">۲٬۴۳۱٬۰۰۰ تومان</div>
+    <button onclick="choose(5)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">⚔️</div>
+    <h3>2400 CP</h3>
+    <div class="price">۶٬۶۳۰٬۰۰۰ تومان</div>
+    <button onclick="choose(6)">ثبت سفارش</button>
+  </div>
+
+  <div class="card">
+    <div class="character">👑</div>
+    <h3>5000 CP</h3>
+    <div
